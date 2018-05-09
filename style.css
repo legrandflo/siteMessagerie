@@ -1,0 +1,181 @@
+/* POUR TOUS LES FICHIERS*/
+header {
+    display : flex;
+    flex-direction: column;
+}
+#banniere {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+#banniere img {
+    height : 150px;
+    width : 150px;
+}
+#banniere h1{
+   padding-left : 70px;
+}
+#horloge{  
+    position : absolute;
+    right :10px;
+    top : 10px;
+    font-size:larger;
+    color : darkblue;
+}
+
+/* ACCUEIL*/
+.h2accueil{
+    color:blue;
+}
+/*bouton du chat de accueil*/
+#boutonchat {       
+   font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:100%;
+   display : flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+#boutonlien {
+    color:white;
+    background-color: #2870FF;
+
+}
+#boutonsanslien {
+    color:black;
+    background-color: lightgoldenrodyellow;
+
+}
+#boutonsanslien, #boutonlien{
+    padding: 14px;
+    border:3px solid #ffcc00;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    0border-radius:10px;
+    border-bottom:1px solid #9f9f9f;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    cursor:pointer;
+   width:400px;
+}
+#boutonlien:hover {
+   background-color:deepskyblue;
+   /*text-transform: uppercase;*/
+   font-weight : bold;
+}
+
+
+
+/*INSCRIPTION*/
+.h2inscription {
+    color:blue;
+    text-align: center;
+}
+.h3chat {
+    text-align: center;
+}
+/* bouton de choix de chat dans inscription*/
+#choixchat {
+        display : flex;
+        justify-content: space-around;      
+}
+#chatlibre,#chatsport,#chatmusique{
+    display :flex;
+    flex-direction :column;
+    justify-content: space-around;
+       border : 3px #0066ff solid;
+       border-style :solid;
+       box-shadow: -5px -5px 4px #b3d1ff;
+       text-align : center;
+
+       width : 20%;
+       height : 250px;
+}
+.boutonchoix {
+    background-color: silver;
+    margin: 0px 10px;
+    color : blue;
+}
+
+
+/* ACCUEIL INSCRIPTION*/
+
+/* bouton login de accueil et champutilisateur de inscription*/
+#login, #champutilisateur{
+    margin-top : 50px;
+    border-style : double;
+    border-radius: 8px;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+/*bouton de login et inscription de accueil et inscription*/
+: required{  /*color le champ a l'action required*/
+       color :red;
+}
+
+/* bouton soumission accueil de inscription - inscription administrateur de accueil*/
+.bouton {
+    text-align: center;
+    margin-top : 50px;
+    border-style : double;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left : 50px;
+    background: rgb(183,222,237); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+}
+#soumission, #accueil, #inscription, #administrateur{
+   /*box-shadow : 2px 2px 0px grey;*/
+   height : 50px;
+   width : 150px;
+}
+
+/* CHAT 1 CHAT2 CHAT3*/
+
+/*fieldset de chat1 chat2 chat3*/
+.fieldsetchat {
+    margin-top : 50px;
+    border-style : double;
+    border-radius: 8px;
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+/* Chat1*/
+.h1chat1{
+    color: greenyellow;
+}
+.h2messChat1,#soumissionchat1, #accueilchat1  {
+    color: limegreen;
+}
+/* Chat2 */
+
+.h1chat2{
+    color: deepskyblue;
+
+}
+.h2messChat2,#soumissionchat2, #accueilchat2  {
+    color:blue;
+}
+
+/* Chat3*/
+
+.h1chat3{
+    color: darkorange;
+   }
+.h2messChat3,#soumissionchat3, #accueilchat3 {
+    color:orange;
+   }
+
+
